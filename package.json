@@ -1,0 +1,21 @@
+{
+  "name": "package-dependencies",
+  "main": "./lib/package-dependencies",
+  "version": "0.0.0",
+  "description": "Enforce dependencies on Atom packages.",
+  "activationCommands": {
+    "atom-workspace": "package-dependencies:check"
+  },
+  "repository": "https://github.com/travs/package-dependencies",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "semver": "4.x.x"
+  },
+  "package-dependencies": {
+    "markdown-preview": "1.1.1",
+    "test": "0.0.1"
+  }
+}
