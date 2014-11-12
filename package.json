@@ -8,6 +8,7 @@
   },
   "repository": "https://github.com/travs/package-dependencies",
   "license": "MIT",
+  "author": "Travis Jacobs (github.com/travs)",
   "engines": {
     "atom": ">0.50.0"
   },
@@ -15,7 +16,6 @@
     "semver": "4.x.x"
   },
   "package-dependencies": {
-    "markdown-preview": "1.1.1",
-    "test": "0.0.1"
+    "color-picker": "1.1.1"
   }
 }
