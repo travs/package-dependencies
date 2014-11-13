@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "description": "Enforce dependencies on Atom packages.",
   "activationCommands": {
-    "atom-workspace": "package-dependencies:check"
+    "atom-workspace": "package-dependencies:update"
   },
   "repository": "https://github.com/travs/package-dependencies",
   "license": "MIT",
