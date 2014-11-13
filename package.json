@@ -13,9 +13,7 @@
     "atom": ">0.50.0"
   },
   "dependencies": {
+    "atom-package-dependencies": "latest",
     "semver": "4.x.x"
-  },
-  "package-dependencies": {
-    "color-picker": "1.1.1"
   }
 }
