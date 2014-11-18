@@ -16,5 +16,9 @@
   "dependencies": {
     "atom-package-dependencies": "latest",
     "semver": "4.x.x"
+  },
+  "package-dependencies": {
+    "iasdajns": "asdasd",
+    "markdown-pdf": "latest"
   }
 }
