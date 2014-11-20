@@ -1,7 +1,7 @@
 {
   "name": "package-dependencies",
   "main": "./lib/package-dependencies",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Atom package wrapper for npm atom-package-dependencies.",
   "activationCommands": {
     "atom-workspace": "package-dependencies:install"
