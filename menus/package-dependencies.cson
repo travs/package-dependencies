@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Install Atom package dependencies'
+      'command': 'package-dependencies:install'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'package-dependencies'
+      'submenu': [
+        {
+          'label': 'Install Atom package dependencies'
+          'command': 'package-dependencies:install'
+        }
+      ]
+    ]
+  }
+]

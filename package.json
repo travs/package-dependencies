@@ -1,24 +1,17 @@
 {
   "name": "package-dependencies",
   "main": "./lib/package-dependencies",
-  "version": "0.1.0",
-  "description": "Enforce dependencies on Atom packages.",
+  "version": "0.0.0",
+  "description": "Atom package wrapper for npm atom-package-dependencies.",
   "activationCommands": {
-    "atom-workspace": "package-dependencies:update",
-    "atom-workspace": "package-dependencies:check"
+    "atom-workspace": "package-dependencies:install"
   },
   "repository": "https://github.com/travs/package-dependencies",
   "license": "MIT",
-  "author": "Travis Jacobs (github.com/travs)",
   "engines": {
     "atom": ">0.50.0"
   },
   "dependencies": {
-    "atom-package-dependencies": "latest",
-    "semver": "4.x.x"
-  },
-  "package-dependencies": {
-    "iasdajns": "asdasd",
-    "markdown-pdf": "latest"
+    "atom-package-dependencies": "latest"
   }
 }
